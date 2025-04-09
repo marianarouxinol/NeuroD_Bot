@@ -138,8 +138,8 @@ O chatbot deve ser capaz de:
 
 ## 👥 Contribuidores
 
--Scrum Master: Isabéli Januário
--Líder Técnico:  Gustavo Passos
--Desenvolvedores: Walbens Charles, Mariana Rouxinol, Aline Conchetta, Gustavo Passos
--Arquitetura: Mariana Rouxinol
+-Scrum Master: Isabéli Januário.
+-Líder Técnico:  Gustavo Passos.
+-Desenvolvedores: Walbens Charles, Mariana Rouxinol, Aline Conchetta, Gustavo Passos.
+-Arquitetura: Mariana Rouxinol.
 
