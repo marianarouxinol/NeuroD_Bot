@@ -1,18 +1,17 @@
 # NeuroD_Bot 🤖
  Projeto de Chatbot utilizando Python e Amazon Bedrock para auxiliar pessoas com TDAH e TEA em seus quadros de crises ou organização no geral.
 
-📌 Índice
+## 📌 Índice  
 
-1.🎯 Objetivo
-2.📊 Indicadores de Sucesso
-3.📜 Premissas
-4.📖 Histórias de Usuário
-5.📑 Requisitos
-6.💻 Tecnologias & Ferramentas
-7.🛠️ Arquitetura
-8.📌 Melhorias Futuras
-9.👥 Contribuidores
-
+1. [🎯 Objetivo](#🎯-objetivo)  
+2. [📊 Indicadores de Sucesso](#📊-indicadores-de-sucesso)  
+3. [📜 Premissas](#📜-premissas)  
+4. [📑 Requisitos](#📑-requisitos)  
+5. [📖 Histórias de Usuário](#📖-historias-de-usuario)  
+6. [💻 Tecnologias & Ferramentas](#💻-tecnologias--ferramentas)  
+7. [🛠️ Arquitetura](#🛠️-arquitetura)  
+8. [📌 Melhorias Futuras](#📌-melhorias-futuras)  
+9. [👥 Contribuidores](#👥-contribuidores)  
 
 
 
