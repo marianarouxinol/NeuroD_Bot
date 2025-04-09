@@ -15,7 +15,6 @@
 
 
 
-
 ## 🎯 Objetivo
 
 Este projeto tem como propósito desenvolver um Chatbot baseado em Inteligência Artificial, utilizando Python e Amazon Bedrock da AWS para processamento de linguagem. 
