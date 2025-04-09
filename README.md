@@ -3,15 +3,15 @@
 
 ## 📌 Índice  
 
-1. [🎯 Objetivo](#🎯-objetivo)  
-2. [📊 Indicadores de Sucesso](#📊-indicadores-de-sucesso)  
-3. [📜 Premissas](#📜-premissas)  
-4. [📑 Requisitos](#📑-requisitos)  
-5. [📖 Histórias de Usuário](#📖-historias-de-usuario)  
-6. [💻 Tecnologias & Ferramentas](#💻-tecnologias--ferramentas)  
-7. [🛠️ Arquitetura](#🛠️-arquitetura)  
-8. [📌 Melhorias Futuras](#📌-melhorias-futuras)  
-9. [👥 Contribuidores](#👥-contribuidores)  
+1. [🎯 Objetivo](#objetivo)  
+2. [📊 Indicadores de Sucesso](#indicadores-de-sucesso)  
+3. [📜 Premissas](#premissas)  
+4. [📑 Requisitos](#requisitos)  
+5. [📖 Histórias de Usuário](#historias-de-usuario)  
+6. [💻 Tecnologias & Ferramentas](#tecnologias-e-ferramentas)  
+7. [🛠️ Arquitetura](#arquitetura)  
+8. [📌 Melhorias Futuras](#melhorias-futuras)  
+9. [👥 Contribuidores](#contribuidores)  
 
 
 
