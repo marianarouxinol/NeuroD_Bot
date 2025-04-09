@@ -3,15 +3,15 @@
 
 ## 📌 Índice  
 
-1. [🎯 Objetivo](#objetivo)  
-2. [📊 Indicadores de Sucesso](#indicadores-de-sucesso)  
-3. [📜 Premissas](#premissas)  
-4. [📑 Requisitos](#requisitos)  
-5. [📖 Histórias de Usuário](#historias-de-usuario)  
-6. [💻 Tecnologias & Ferramentas](#tecnologias-e-ferramentas)  
-7. [🛠️ Arquitetura](#arquitetura)  
-8. [📌 Melhorias Futuras](#melhorias-futuras)  
-9. [👥 Contribuidores](#contribuidores)  
+1. [🎯 Objetivo](#Objetivo)  
+2. [📊 Indicadores de Sucesso](#Indicadores-de-Sucesso)  
+3. [📜 Premissas](#Premissas)  
+4. [📖 Histórias de Usuário](#Historias-de-Usuario) 
+5.  [📑 Requisitos](#Requisitos)  
+6. [💻 Tecnologias & Ferramentas](#Tecnologias-e-Ferramentas) 
+7. [🛠️ Arquitetura](#Arquitetura)  
+8. [📌 Melhorias Futuras](#Melhorias-Futuras)  
+9. [👥 Contribuidores](#Contribuidores)  
 
 
 
@@ -107,7 +107,7 @@ O chatbot deve ser capaz de:
 - Utilização do serviço Amazon Bedrock para geração das respostas personalizadas com base na documentação fornecida;
 
 
-## 💻 Tecnologias & Ferramentas
+## 💻 Tecnologias e Ferramentas
 
 ### Serviços Utilizados e suas Funcionalidades
 
