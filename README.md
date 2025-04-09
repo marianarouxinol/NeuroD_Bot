@@ -136,10 +136,13 @@ O chatbot deve ser capaz de:
 - FinOps: Avaliar uma alternativa para o opensearch com intuito reduzir custos da aplicação
 - Amazon ElastiCache: Para armazenar respostas frequentes e evitar chamadas repetidas ao Bedrock, melhorando o tempo de resposta.
 
-## 👥 Contribuidores
+## 👥 Contribuidores  
 
--Scrum Master: Isabéli Januário.
--Líder Técnico:  Gustavo Passos.
--Desenvolvedores: Walbens Charles, Mariana Rouxinol, Aline Conchetta, Gustavo Passos.
--Arquitetura: Mariana Rouxinol.
-
+- **Scrum Master:** Isabéli Januário  
+- **Líder Técnico:** Gustavo Passos  
+- **Desenvolvedores:**  
+  - Walbens Charles  
+  - Mariana Rouxinol  
+  - Aline Conchetta  
+  - Gustavo Passos  
+- **Arquitetura:** Mariana Rouxinol  
