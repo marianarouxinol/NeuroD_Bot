@@ -1,31 +1,31 @@
 # NeuroD_Bot 🤖
  Projeto de Chatbot utilizando Python e Amazon Bedrock para auxiliar pessoas com TDAH e TEA em seus quadros de crises ou organização no geral.
 
+## 📌 Índice  
 
- # Documentação — NeuroD_Bot
+1. [🎯 Objetivo](#objetivo)  
+2. [📊 Indicadores de Sucesso](#indicadores-de-sucesso)  
+3. [📜 Premissas](#premissas)  
+4. [📑 Requisitos](#requisitos)  
+5. [📖 Histórias de Usuário](#historias-de-usuario)  
+6. [💻 Tecnologias & Ferramentas](#tecnologias-e-ferramentas)  
+7. [🛠️ Arquitetura](#arquitetura)  
+8. [📌 Melhorias Futuras](#melhorias-futuras)  
+9. [👥 Contribuidores](#contribuidores)  
 
-| Meta de Lançamento | 06 de março de 2025 |
-| --- | --- |
-| Épico | Desenvolver chatbot com Inteligente Artificial com Python e Amazon Bedrock, auxiliando pessoas com Transtorno de Déficit de Atenção e Hiperatividade e Transtorno do Espectro Autista, dando dicas de organização, bem estar emocional, sensorial e diferentes técnicas para variados cenários   |
-| Status do documento | Concluído |
-| Equipe de desenvolvedores | PYTHON - Walbens Charles, Mariana Rouxinol, Aline Conchetta |
-| Scrum Master | Isabéli Januário |
-| Líder Técnico | Gustavo Passos |
-| Arquitetos | Mariana Rouxinol |
+
+
 
 ## 🎯 Objetivo
 
-Este projeto possui o objetivo de, através da linguagem Python e utilizando o Amazon Bedrock da AWS para usar modelo de linguagem, construir uma solução de inteligência artificial, a fim de ajudar pessoas com Transtorno de Déficit de Atenção e Hiperatividade e Transtorno do Espectro Autista (TDAH e TEA) em seus quadros de crises ou organização no geral.
+Este projeto tem como propósito desenvolver um Chatbot baseado em Inteligência Artificial, utilizando Python e Amazon Bedrock da AWS para processamento de linguagem. 
+A iniciativa visa oferecer suporte a pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH) e Transtorno do Espectro Autista (TEA), auxiliando na organização da rotina e em momentos de crise emocional.
+A ferramenta fornecerá dicas personalizadas, técnicas e sugestões para melhoria da organização no dia a dia, facilitando a criação de uma rotina estruturada para estudos e outras atividades. Além disso, será capaz de oferecer orientações para situações de crise, incluindo ajustes sensoriais — ambiente, iluminação, sons, tato e cheiros — e estratégias para lidar com shutdowns e meltdowns.
 
-O principal objetivo com a solução é auxiliar pessoas com TDAH e TEA a se ajustarem com o dia-a-dia, tendo essa condição que pode tornar algo simples bem desafiador, através de dicas de técnicas e apps de organização, afim de estabelecer uma rotina para estudos e organização em geral. Ou, também, para quadro de crises, com as melhores dicas e soluções pensando no quadro, tais como ajustes sensoriais (ambiente, iluminação, sons, tato, cheiros) e como lidar com shutdowns e meltdowns.
+📌 Importante: A solução funciona como um suporte complementar, mas não substitui acompanhamento profissional como terapia psicológica ou tratamento psiquiátrico.
+O projeto contempla todo o ciclo de desenvolvimento, desde a definição de requisitos até a arquitetura e aplicação de design thinking, garantindo uma abordagem estruturada e eficiente
 
-📌 Importante destacar que, a solução é apenas uma ferramenta de auxílio, e não uma substituição de tratamento psicológico/psiquiátrico.
-
-O projeto abrange todo o ciclo de desenvolvimento, desde a definição de requisitos, passando por arquitetura e design thinking.
-
-## 📊 Indicadores de missão cumprida:
-
-### **Indicadores de Sucesso**
+## 📊 Indicadores de Sucesso
 
 O chatbot deve ser capaz de:
 
@@ -46,34 +46,7 @@ O chatbot deve ser capaz de:
 - Implementação de uma arquitetura escalável e eficiente.
 - Entrega de todas as etapas dentro dos prazos estabelecidos.
 
-## 📑 Requisitos
-
-### **Requisitos Funcionais**
-
-- Serviço LEX - ChatBot
-- Serviço Via Back-end → Python
-- Armazenamento e Personalização de dados com dynamoDB
-- Processamento de áudio para interação por voz - integração com amazon transcribe
-- Armazenamento e integração de arquivos com s3
-- Serviço OpenSearch para busca inteligente
-- Processamento inteligente de linguagem natural com Amazon Bedrock com geração de respostas rápidas e personalizadas
-
-### **Requisitos Não Funcionais**
-
-**Desempenho**:
-
-- O chatbot deve ser responsivo, com tempo de resposta rápido para as interações do usuário. A aplicação deve garantir que as interações ocorram sem atraso perceptível, proporcionando uma experiência fluida ao usuário.
-
-**Linguagem utilizada e Bibliotecas:**
-
-- A linguagem utilizada será Python;
-- Utilização da biblioteca Boto3 para comunicação eficiente com os serviços AWS, permitindo manipulação de recursos de forma programática.
-
-**Uso de um serviço de Inteligência Artificial para processamento e resposta:**
-
-- Utilização do serviço Amazon Bedrock para geração das respostas personalizadas com base na documentação fornecida;
-
-## 📖 Histórias de Usuário
+  ## 📖 Histórias de Usuário
 
 ***R1 → Como um usuário, quero interagir com a aplicação através do chatbot para que possa obter informações sobre como lidar com questões envolvendo TDAH e/ou TEA***
 
@@ -106,7 +79,36 @@ O chatbot deve ser capaz de:
     - O OpenSearch deve indexar uma base de dados referente a crises em TDAH/TEA e ténicas ou apps de organização no geral.
     - Os resultados da busca devem ser relevantes e personalizados.
 
-## 🧑‍💻 Tecnologias & Ferramentas
+
+## 📑 Requisitos
+
+### **Requisitos Funcionais**
+
+- Serviço LEX - ChatBot
+- Serviço Via Back-end → Python
+- Armazenamento e Personalização de dados com dynamoDB
+- Processamento de áudio para interação por voz - integração com amazon transcribe
+- Armazenamento e integração de arquivos com s3
+- Serviço OpenSearch para busca inteligente
+- Processamento inteligente de linguagem natural com Amazon Bedrock com geração de respostas rápidas e personalizadas
+
+### **Requisitos Não Funcionais**
+
+**Desempenho**:
+
+- O chatbot deve ser responsivo, com tempo de resposta rápido para as interações do usuário. A aplicação deve garantir que as interações ocorram sem atraso perceptível, proporcionando uma experiência fluida ao usuário.
+
+**Linguagem utilizada e Bibliotecas:**
+
+- A linguagem utilizada será Python;
+- Utilização da biblioteca Boto3 para comunicação eficiente com os serviços AWS, permitindo manipulação de recursos de forma programática.
+
+**Uso de um serviço de Inteligência Artificial para processamento e resposta:**
+
+- Utilização do serviço Amazon Bedrock para geração das respostas personalizadas com base na documentação fornecida;
+
+
+## 💻 Tecnologias & Ferramentas
 
 ### Serviços Utilizados e suas Funcionalidades
 
@@ -126,7 +128,7 @@ O chatbot deve ser capaz de:
 
 ![image.png](image.png)
 
-## 📌 Backlog | Melhorias
+## 📍 Melhorias Futuras
 
 - Amazon CloudWatch: Para monitorar desempenho, uso da aplicação e tempo de resposta.
 - Amazon Connect: Canal direto de suporte .
@@ -134,3 +136,11 @@ O chatbot deve ser capaz de:
 - Amazon Translate: Para oferecer suporte a diversos idiomas e melhorar a acessibilidade.
 - FinOps: Avaliar uma alternativa para o opensearch com intuito reduzir custos da aplicação
 - Amazon ElastiCache: Para armazenar respostas frequentes e evitar chamadas repetidas ao Bedrock, melhorando o tempo de resposta.
+
+## 👥 Contribuidores
+
+Scrum Master: Isabéli Januário
+Líder Técnico:  Gustavo Passos
+Desenvolvedores: Walbens Charles, Mariana Rouxinol, Aline Conchetta, Gustavo Passos
+Arquitetura: Mariana Rouxinol
+
